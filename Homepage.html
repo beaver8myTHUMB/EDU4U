@@ -8,6 +8,7 @@
 	<style>
 
 		body{
+			font-family: sans-serif;
 			background-size: cover;
 			background-repeat: no-repeat;
 			transition: 5s;
@@ -21,16 +22,15 @@
 		
 		.div1 img{
 			max-height: 150px;
-			float: right;
+			float: left;
 		}
 
 		.div1 p{
-			margin-right: 15px;
+			margin-left: 15px;
 			margin-top: 50px;
 			font-size: 40px;
-			font-family: sans-serif;
 			font-weight: bolder;
-			float: right;
+			float: left;
 		}
 
 		@keyframes ani1{
@@ -40,6 +40,21 @@
 			100%{
 				background-image: url(1920x1080green.png);
 			}
+		}
+
+		.div2{
+			float: right;
+		}
+
+		.div2 img{
+			margin-top: 300px;
+			opacity: 60%;
+			max-height: 100px;
+			transition: 0.3s ease-in-out;
+		}
+
+		.div2 img:hover{
+			opacity: 100%;
 		}
 
 	</style>
@@ -54,6 +69,12 @@
 <p class="text1">
 	EDU4U
 </p>
+
+</div>
+
+<div class="div2">
+	
+	<a href="AboutUs.html"><img src="ArrowIcon.png" title="Further Information About Us"></a>
 
 </div>
 
