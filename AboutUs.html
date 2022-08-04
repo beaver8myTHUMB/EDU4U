@@ -4,8 +4,145 @@
 	<meta charset="utf-8">
 	<title>About|EDU4U</title>
 	<link rel="icon" type="image/x-icon" href="1x1green.png">
+
+	<style>
+
+		*{
+			margin: 0px;
+			padding: 0px;
+			font-family: sans-serif;
+		}
+
+		.div1 img{
+			border-radius: 30px;
+			margin: 17.2px;
+			max-height: 260px;
+		}
+
+		.div1{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+		.image{
+			opacity: 100%;
+			display: block;
+			transition: .5s ease;
+			backface-visibility: hidden;
+			border-radius: 30px;
+		}
+
+		.container:hover .image{
+			opacity: 60%;
+		}
+
+		.container:hover .text p{
+			opacity: 100%;
+		}
+
+		.text p{
+			transition: .5s ease;
+			opacity: 0%;
+			position: relative;
+			text-align: center;
+			font-size: 16px;
+			padding: 5px;
+		}
+
+		.text p{
+			font-weight: bolder;
+			color: darkgreen;
+			font-size: 25px;
+		}
+
+		.div2 img{
+			opacity: 60%;
+			float: right;
+			max-height: 100px;
+			transition: 0.3s ease-in-out;
+		}
+
+		.div2 img:hover{
+			opacity: 90%;
+		}
+
+	</style>
+
 </head>
 <body>
+
+<div class="div1">
+	
+	<div class="container">
+	  <img src="1920x1080teaching.png" alt="image_not_found" class="image">
+	    <div class="text">
+	    	<p>Campus Classes</p>
+	    </div>
+	</div>
+	
+	<div class="container">
+	  <img src="1920x1080onlineclasses.png" alt="image_not_found" class="image">
+	    <div class="text">
+	    	<p>Online Classes</p>
+	    </div>
+	</div>
+	
+	<div class="container">
+	  <img src="1920x1080library.png" alt="image_not_found" class="image">
+	    <div class="text">
+	    	<p>Library</p>
+	    </div>
+	</div>
+	
+	<div class="container">
+	  <img src="1920x1080football.png" alt="image_not_found" class="image">
+	    <div class="text">
+	    	<p>Physical Exercise</p>
+	    </div>
+	</div>
+	
+	<div class="container">
+	  <img src="1920x1080music.png" alt="image_not_found" class="image">
+	    <div class="text">
+	    	<p>Music Class</p>
+	    </div>
+	</div>
+	
+	<div class="container">
+	  <img src="1920x1080martialart.jpg" alt="image_not_found" class="image">
+	    <div class="text">
+	    	<p>Martial Art</p>
+	    </div>
+	</div>
+	
+	<div class="container">
+	  <img src="1920x1080lab.png" alt="image_not_found" class="image">
+	    <div class="text">
+	    	<p>Science Lab</p>
+	    </div>
+	</div>
+	
+	<div class="container">
+	  <img src="1920x1080computerlab.png" alt="image_not_found" class="image">
+	    <div class="text">
+	    	<p>Computer Lab</p>
+	    </div>
+	</div>
+	
+	<div class="container">
+	  <img src="1920x1080certificate.png" alt="image_not_found" class="image">
+	    <div class="text">
+	    	<p>Graduation</p>
+	    </div>
+	</div>
+
+</div>
+
+<div class="div2">
+	
+	<a href="Homepage.html"><img src="HomeIcon.png" title="Home"></a>
+
+</div>
 
 </body>
 </html>
