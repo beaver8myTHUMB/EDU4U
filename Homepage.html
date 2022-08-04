@@ -54,7 +54,33 @@
 		}
 
 		.div2 img:hover{
-			opacity: 100%;
+			opacity: 90%;
+		}
+
+		@media only screen and (max-width: 1080px){
+
+		body{
+			animation-name: ani2;
+		}
+
+		.div1{
+			margin-left: 100px;
+		}
+
+		@keyframes ani2{
+			0%{
+				background-image: url(9x16art.png);
+			}
+			100%{
+				background-image: url(9x16sport.png);
+			}
+		}
+
+		.div2 img{
+			max-height: 70px;
+			margin-top: 280px;
+		}
+
 		}
 
 	</style>
@@ -74,7 +100,7 @@
 
 <div class="div2">
 	
-	<a href="AboutUs.html"><img src="ArrowIcon.png" title="Further Information About Us"></a>
+	<a href="AboutUs.html"><img src="ArrowIcon.png" title="Next page"></a>
 
 </div>
 
